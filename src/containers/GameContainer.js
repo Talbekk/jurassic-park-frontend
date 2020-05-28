@@ -28,7 +28,7 @@ class GameContainer extends Component {
       timeOutID: null,
       gameReset: false
      }
-     this.url = 'http://localhost:8080';
+     this.url = 'https://secret-mesa-75632.herokuapp.com';
      this.request = new Request();
      this.handleStartClick = this.handleStartClick.bind(this);
      this.handleSelectPaddock = this.handleSelectPaddock.bind(this);
